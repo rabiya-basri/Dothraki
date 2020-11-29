@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root{
+    --primary:#7F1D1D;
+    --text:#F9FAFB;
+    --max-width:600px;
+    --black:#9CA3AF;
+}
+body{
+    font-family: 'Lobster', cursive;
+    margin: 0;
+}
+.navbar{
+    background-color: var(--primary);
+}
+.navbar-header{
+    font-size: 2rem;
+    padding: 1rem; 
+    text-align: center; 
+    color: var(--text); 
+}
+main{
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--max-width);
+}
+textarea{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+    border: 1px solid var(--black);
+}
+button{
+    background-color: var(--primary);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    font-size: large;
+    font-family: 'Lobster', cursive;
+    color: var(--text);
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary);
+    text-align: center;
+    color: var(--text);
+}
+.footer-header{
+    font-size: 2rem;
+    padding: 1rem; 
+    text-align: center; 
+    color: var(--text); 
+}
+footer p{
+    color: var(--text);
+    margin: auto;
+    max-width: var(--max-width);
+    font-family: "Lato script=all rev=1";
+font-weight: 300;
+font-style: italic;
+}
+#output{
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid var(--black);
+    padding: 1rem;
+    margin: 0;
+    font-size: large;
+}

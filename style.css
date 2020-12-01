@@ -32,7 +32,6 @@ textarea{
     width: 100%;
     min-height: 20vh;
     margin-top: 2rem;
-    color: var(--text);
     font-size: large;
     font-family: inherit;
 }

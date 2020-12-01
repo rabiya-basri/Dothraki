@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap');
 
 :root{
     --primary:#7F1D1D;
     --text:#F9FAFB;
-    --max-width:600px;
     --black:#9CA3AF;
+    --width-break: 600px;
 }
 body{
     font-family: 'Lobster', cursive;
@@ -14,58 +14,51 @@ body{
     background-color: var(--primary);
 }
 .navbar-header{
+    font-family: 'Texturina', serif;
+    color: var(--text);
     font-size: 2rem;
     padding: 1rem; 
-    text-align: center; 
-    color: var(--text); 
+    text-align: center;  
 }
 main{
     margin: auto;
     padding: 1rem;
-    max-width: var(--max-width);
+    max-width: var(--width-break);
 }
 textarea{
     box-sizing: border-box;
+    border: 1px solid var(--black);
     display: block;
     width: 100%;
     min-height: 20vh;
     margin-top: 2rem;
+    color: var(--text);
     font-size: large;
     font-family: inherit;
-    border: 1px solid var(--black);
 }
 button{
     background-color: var(--primary);
+    color: var(--text);
     border: none;
     margin: 1rem 0rem;
     padding: 1rem 2rem;
-    text-align: center;
+    font-family: 'Texturina', serif;
     font-size: large;
-    font-family: 'Lobster', cursive;
-    color: var(--text);
 }
 footer{
-    position: fixed;
+    font-family: 'Texturina', serif;
     bottom: 0;
     width: 100%;
     padding: 1rem;
     background-color: var(--primary);
-    text-align: center;
     color: var(--text);
-}
-.footer-header{
-    font-size: 2rem;
-    padding: 1rem; 
-    text-align: center; 
-    color: var(--text); 
+    text-align: center;
 }
 footer p{
+    max-width: var(--width-break);
     color: var(--text);
     margin: auto;
-    max-width: var(--max-width);
-    font-family: "Lato script=all rev=1";
-font-weight: 300;
-font-style: italic;
+    font-family: 'Texturina', serif;
 }
 #output{
     box-sizing: border-box;
